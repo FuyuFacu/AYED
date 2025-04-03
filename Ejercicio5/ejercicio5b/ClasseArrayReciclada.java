@@ -28,8 +28,8 @@ public class ClaseArray {
 	
 	public static String sacarRangos(ListaNumeros L) {
 		String aux = "";
-		int minimo = 999999;
-		int maximo = 0;
+		int minimo = Integer.MAX_VALUE;
+		int maximo = Integer.MIN_VALUE;
 		int sumaTotal = 0;
 		int[] arrayEnteros = L.getNumeros();
 		int largoArrayEntero = arrayEnteros.length;
